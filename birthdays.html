@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Birthday Parties | Create With Meg</title>
+  <meta name="description" content="Book a creative birthday party for your child at Create With Meg in Nanton, Alberta. All materials included, up to 12 kids, 2-hour packages from $340." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Nunito:wght@300;400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Create With Meg</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="workshops.html">Workshops & Events</a></li>
+        <li><a href="birthdays.html" class="active">Birthday Parties</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="workshops.html" class="btn-nav">Book Now</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero birthday-hero">
+    <div class="container center-text">
+      <span class="label-tag center">Celebrate</span>
+      <h1>Birthday Parties 🎂</h1>
+      <p>Book the studio for an exclusive, creative birthday experience your child will never forget — all materials included, all the mess welcome!</p>
+    </div>
+  </section>
+
+  <!-- BIRTHDAY INTRO -->
+  <section class="section-pad">
+    <div class="container two-col">
+      <div class="about-text">
+        <h2>Make Their Day Magical</h2>
+        <p>Birthday parties at Create With Meg are more than just a party — they're an experience. Meg brings the energy, the creativity, and all the materials while you bring the birthday kid and their crew!</p>
+        <p>Each party is guided by Meg personally, with activities tailored to your child's age and interests. Whether they're into painting, sculpting, mixed media, or messy play — we'll make it special.</p>
+        <p>Parents, you can relax and enjoy it too (or join in — we don't judge 😄).</p>
+      </div>
+      <div class="about-img-placeholder">
+        <div class="img-block">🎨<br/><small>Add party photo here</small></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="section-pad bg-cream">
+    <div class="container">
+      <span class="label-tag center">Pricing</span>
+      <h2 class="section-title">Birthday Party Packages</h2>
+
+      <div class="pricing-grid">
+        <div class="pricing-card featured-card">
+          <div class="pricing-header">
+            <h3>Studio Birthday Party</h3>
+            <p class="pricing-sub">Our signature birthday experience</p>
+          </div>
+          <div class="pricing-body">
+            <div class="price-main">
+              <span class="price-from">from</span>
+              <span class="price-num">$340</span>
+              <span class="price-detail">2 hours · up to 12 kids</span>
+            </div>
+            <div class="price-breakdown">
+              <p>📋 How it's priced:</p>
+              <ul>
+                <li>$50/hour studio fee (2 hrs = $100)</li>
+                <li>$20/child · max 12 kids ($240 for 12)</li>
+                <li><strong>Total for full party: $340</strong></li>
+                <li>Fewer kids? Price adjusts accordingly!</li>
+              </ul>
+            </div>
+            <h4>Everything Included:</h4>
+            <ul class="included-list">
+              <li>✦ Exclusive studio use for the duration</li>
+              <li>✦ Meg as your personal party host</li>
+              <li>✦ All art materials provided</li>
+              <li>✦ Guided creative activity for all kids</li>
+              <li>✦ Finished artwork for each child to take home</li>
+              <li>✦ Mess-friendly environment — no cleanup stress!</li>
+            </ul>
+            <a href="#birthday-inquiry" class="btn-primary full-width">Inquire About a Party Date</a>
+          </div>
+        </div>
+
+        <div class="pricing-card addon-card">
+          <div class="pricing-header">
+            <h3>Add-On Packages</h3>
+            <p class="pricing-sub">Make it extra special</p>
+          </div>
+          <div class="pricing-body">
+            <p>Customize your party with add-ons! Pricing coming soon — reach out to chat about options:</p>
+            <ul class="included-list">
+              <li>✦ Extended time</li>
+              <li>✦ Themed decorations</li>
+              <li>✦ Custom project selection</li>
+              <li>✦ Additional activities</li>
+              <li>✦ And more!</li>
+            </ul>
+            <p class="addon-note">Reach out to discuss what you have in mind — Meg loves making parties extra unique! 🎉</p>
+            <a href="contact.html" class="btn-outline full-width">Let's Chat →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INQUIRY FORM -->
+  <section class="section-pad" id="birthday-inquiry">
+    <div class="container form-container">
+      <span class="label-tag center">Get Started</span>
+      <h2 class="section-title">Book a Birthday Party</h2>
+      <p class="center-text section-sub">Fill out the form below and Meg will get back to you within 24–48 hours to confirm availability and details!</p>
+
+      <form class="registration-form" id="birthday-form" action="https://formspree.io/f/mwvwpvow" method="POST">
+        <input type="hidden" name="_subject" value="🎂 New Birthday Party Inquiry — Create With Meg" />
+        <input type="hidden" name="_next" value="thankyou.html" />
+        <div class="form-row">
+          <div class="form-group">
+            <label for="b-parent-name">Your Name *</label>
+            <input type="text" id="b-parent-name" name="parent_name" required placeholder="Parent / guardian name" />
+          </div>
+          <div class="form-group">
+            <label for="b-email">Email Address *</label>
+            <input type="email" id="b-email" name="email" required placeholder="you@email.com" />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="b-phone">Phone Number</label>
+            <input type="tel" id="b-phone" name="phone" placeholder="780-000-0000" />
+          </div>
+          <div class="form-group">
+            <label for="b-child-name">Birthday Child's Name *</label>
+            <input type="text" id="b-child-name" name="child_name" required placeholder="First name" />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="b-child-age">Birthday Child's Age *</label>
+            <input type="number" id="b-child-age" name="child_age" required placeholder="e.g. 7" min="1" max="17" />
+          </div>
+          <div class="form-group">
+            <label for="b-guest-count">Approximate Number of Kids *</label>
+            <input type="number" id="b-guest-count" name="guest_count" required placeholder="Max 12" min="1" max="12" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="b-date">Preferred Party Date(s) *</label>
+          <input type="text" id="b-date" name="preferred_dates" required placeholder="e.g. Saturday April 19 or give a few options!" />
+        </div>
+        <div class="form-group">
+          <label for="b-interests">Child's Interests / Themes</label>
+          <input type="text" id="b-interests" name="interests" placeholder="e.g. animals, space, painting, rainbows..." />
+        </div>
+        <div class="form-group">
+          <label for="b-allergies">Allergies or Medical Notes</label>
+          <input type="text" id="b-allergies" name="allergies" placeholder="None, or describe here" />
+        </div>
+        <div class="form-group">
+          <label for="b-notes">Anything else? Add-ons you're interested in, questions, etc.</label>
+          <textarea id="b-notes" name="notes" rows="3" placeholder="Optional but helpful!"></textarea>
+        </div>
+        <button type="submit" class="btn-primary full-width">Submit Birthday Party Inquiry 🎂</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="section-pad bg-cream">
+    <div class="container">
+      <span class="label-tag center">Happy Families</span>
+      <h2 class="section-title">What Birthday Families Say</h2>
+      <div class="reviews-grid">
+        <div class="review-card">
+          <p class="stars">★★★★★</p>
+          <p>"For my 6 &amp; 4 year old's birthdays at the Studio, I had all these ideas and Meg helped them come to life in a way I couldn't even have imagined! She made it so fun and enjoyable for all the kids. Highly recommend!"</p>
+        </div>
+        <div class="review-card">
+          <p class="stars">★★★★★</p>
+          <p>"It was so great! The moms that stayed were so impressed with everything as well! Every other parent I talked to said their kid had such an awesome time!"</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <p class="footer-logo">Create With Meg</p>
+        <p>Art Studio for All Ages<br/>Nanton, Alberta</p>
+      </div>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="workshops.html">Workshops</a>
+        <a href="birthdays.html">Birthday Parties</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-contact">
+        <p>📞 <a href="tel:8254881990">825-488-1990</a></p>
+        <p>📧 <a href="mailto:createwithmeg@gmail.com">createwithmeg@gmail.com</a></p>
+        <p>📍 2111 20 St, Nanton AB<br/>(The Promenade — lower level)</p>
+        <div class="social-links">
+          <a href="#" aria-label="Instagram">Instagram</a> &nbsp;|&nbsp; <a href="#" aria-label="Facebook">Facebook</a>
+        </div>
+      </div>
+    </div>
+    <p class="footer-copy">© 2026 Create With Meg. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => navLinks.classList.toggle('open'));
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Workshops & Events | Create With Meg</title>
+  <meta name="description" content="Upcoming art workshops and creative events for kids, families, and adults in Nanton, Alberta." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Nunito:wght@300;400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Create With Meg</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="workshops.html" class="active">Workshops & Events</a></li>
+        <li><a href="birthdays.html">Birthday Parties</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="workshops.html" class="btn-nav">Book Now</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container center-text">
+      <span class="label-tag center">What's On</span>
+      <h1>Workshops &amp; Events</h1>
+      <p>Creative, hands-on experiences for all ages — from messy play to adult workshops. Check back often, new events are added regularly!</p>
+    </div>
+  </section>
+
+  <!-- UPCOMING EVENTS -->
+  <section class="section-pad">
+    <div class="container">
+      <h2 class="section-title">Upcoming Events</h2>
+
+      <!-- MARCH 31 EVENT -->
+      <div class="event-card-full" id="march31">
+        <div class="event-card-header">
+          <div class="event-date-block large">
+            <span class="month">MAR</span>
+            <span class="day">31</span>
+            <span class="year">2026</span>
+          </div>
+          <div class="event-header-info">
+            <span class="event-category">Mini Makers · Ages 5–9</span>
+            <h2>Messy Play Workshop</h2>
+            <p class="event-meta">⏰ 4:00 – 5:30 PM &nbsp;|&nbsp; 📍 The Promenade Studio, 2111 20 St, Nanton AB</p>
+          </div>
+        </div>
+
+        <div class="event-card-body">
+          <div class="event-description">
+            <p>Get ready to get gloriously messy! This hands-on sensory play session is all about exploring materials, textures, and creativity in a fun, pressure-free environment.</p>
+            <p>All materials are included — we just ask that kids come dressed (or bring a change of clothes) in something they don't mind getting colourful! 🎨</p>
+
+            <h4>What's included:</h4>
+            <ul>
+              <li>✦ All art materials provided</li>
+              <li>✦ Guided activity in a small group setting</li>
+              <li>✦ Creation to take home</li>
+              <li>✦ 90 minutes of creative fun!</li>
+            </ul>
+          </div>
+
+          <div class="event-register-box">
+            <h3>Register Your Child</h3>
+            <div class="price-display">
+              <p><strong>$20</strong> per child</p>
+              <p><strong>$15</strong> per additional sibling</p>
+            </div>
+
+            <form class="registration-form" id="workshop-form-march31" action="https://formspree.io/f/mwvwpvow" method="POST">
+              <input type="hidden" name="_subject" value="🎨 New Workshop Registration — Messy Play March 31" />
+              <input type="hidden" name="_next" value="thankyou.html" />
+              <div class="form-group">
+                <label for="parent-name">Parent / Guardian Name *</label>
+                <input type="text" id="parent-name" name="parent_name" required placeholder="Your full name" />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required placeholder="you@email.com" />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="780-000-0000" />
+              </div>
+              <div class="form-group">
+                <label for="child-name">Child's Name *</label>
+                <input type="text" id="child-name" name="child_name" required placeholder="First name is fine!" />
+              </div>
+              <div class="form-group">
+                <label for="child-age">Child's Age *</label>
+                <input type="number" id="child-age" name="child_age" min="5" max="9" required placeholder="e.g. 7" />
+              </div>
+              <div class="form-group">
+                <label for="ticket-type">Ticket Type *</label>
+                <select id="ticket-type" name="ticket_type" required>
+                  <option value="">Select...</option>
+                  <option value="First Child — $20">First Child — $20</option>
+                  <option value="Additional Sibling — $15">Additional Sibling — $15</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="allergies">Allergies or Medical Notes</label>
+                <input type="text" id="allergies" name="allergies" placeholder="None, or describe here" />
+              </div>
+              <div class="form-group">
+                <label for="notes">Anything else we should know?</label>
+                <textarea id="notes" name="notes" rows="2" placeholder="Optional"></textarea>
+              </div>
+
+              <p class="form-note">After submitting, Meg will send your Square payment link to the email you provided within a few hours. Your spot is held for 24 hours!</p>
+
+              <button type="submit" class="btn-primary full-width">Register & Request Payment Link</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- MORE EVENTS COMING SOON -->
+      <div class="coming-soon-box">
+        <h3>More events coming soon! 🎨</h3>
+        <p>New workshops are added regularly. Follow along on Instagram and Facebook to be the first to know, or reach out to get on the mailing list!</p>
+        <a href="contact.html" class="btn-outline">Get Notified →</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CATEGORIES -->
+  <section class="section-pad bg-cream">
+    <div class="container">
+      <span class="label-tag center">Workshop Types</span>
+      <h2 class="section-title">Something for Everyone</h2>
+      <div class="cards-grid">
+        <div class="card">
+          <div class="card-icon">🌊</div>
+          <h3>Messy Play</h3>
+          <p>Sensory-rich, hands-on sessions where mess is not just allowed — it's encouraged! Perfect for curious little creators.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🖌️</div>
+          <h3>Art Workshops</h3>
+          <p>Guided creative projects using a variety of materials and techniques. Every workshop is unique — check the schedule for what's coming up!</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">👨‍👩‍👧</div>
+          <h3>Family Events</h3>
+          <p>Creative experiences designed for parents and kids to enjoy together. Connection through creativity!</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🍷</div>
+          <h3>Adult Workshops</h3>
+          <p>Unwind, try something new, and tap into your creativity. Relaxed, welcoming sessions for adults of all skill levels.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <p class="footer-logo">Create With Meg</p>
+        <p>Art Studio for All Ages<br/>Nanton, Alberta</p>
+      </div>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="workshops.html">Workshops</a>
+        <a href="birthdays.html">Birthday Parties</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-contact">
+        <p>📞 <a href="tel:8254881990">825-488-1990</a></p>
+        <p>📧 <a href="mailto:createwithmeg@gmail.com">createwithmeg@gmail.com</a></p>
+        <p>📍 2111 20 St, Nanton AB<br/>(The Promenade — lower level)</p>
+        <div class="social-links">
+          <a href="#" aria-label="Instagram">Instagram</a> &nbsp;|&nbsp; <a href="#" aria-label="Facebook">Facebook</a>
+        </div>
+      </div>
+    </div>
+    <p class="footer-copy">© 2026 Create With Meg. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => navLinks.classList.toggle('open'));
+  </script>
+
+</body>
+</html>

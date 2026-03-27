@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Create With Meg</title>
+  <meta name="description" content="Get in touch with Meg — questions, birthday party inquiries, or just to say hi! Create With Meg Art Studio, Nanton AB." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Nunito:wght@300;400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Create With Meg</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="workshops.html">Workshops & Events</a></li>
+        <li><a href="birthdays.html">Birthday Parties</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="workshops.html" class="btn-nav">Book Now</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container center-text">
+      <span class="label-tag center">Say Hello</span>
+      <h1>Get in Touch</h1>
+      <p>Questions, birthday party inquiries, workshop ideas — Meg would love to hear from you!</p>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="section-pad">
+    <div class="container two-col">
+
+      <!-- CONTACT INFO -->
+      <div class="contact-info">
+        <h2>Contact Details</h2>
+
+        <div class="contact-item">
+          <span class="contact-icon">📞</span>
+          <div>
+            <h4>Phone</h4>
+            <a href="tel:8254881990">825-488-1990</a>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <span class="contact-icon">📧</span>
+          <div>
+            <h4>Email</h4>
+            <a href="mailto:createwithmeg@gmail.com">createwithmeg@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <span class="contact-icon">📍</span>
+          <div>
+            <h4>Location</h4>
+            <p>2111 20 St, Nanton, Alberta<br/>The Promenade — lower level</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <span class="contact-icon">📱</span>
+          <div>
+            <h4>Follow Along</h4>
+            <p>Stay updated on new events and behind-the-scenes studio fun!</p>
+            <div class="social-links-large">
+              <a href="#" class="social-btn">Instagram</a>
+              <a href="#" class="social-btn">Facebook</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <span class="contact-icon">⏰</span>
+          <div>
+            <h4>Response Time</h4>
+            <p>Meg typically responds within 24–48 hours. For urgent inquiries, give her a call!</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- CONTACT FORM -->
+      <div class="contact-form-wrap">
+        <h2>Send a Message</h2>
+        <form class="registration-form" id="contact-form" action="https://formspree.io/f/mwvwpvow" method="POST">
+          <input type="hidden" name="_subject" value="✉️ New Message — Create With Meg Website" />
+          <input type="hidden" name="_next" value="thankyou.html" />
+          <div class="form-group">
+            <label for="c-name">Your Name *</label>
+            <input type="text" id="c-name" name="name" required placeholder="Your full name" />
+          </div>
+          <div class="form-group">
+            <label for="c-email">Email Address *</label>
+            <input type="email" id="c-email" name="email" required placeholder="you@email.com" />
+          </div>
+          <div class="form-group">
+            <label for="c-phone">Phone Number</label>
+            <input type="tel" id="c-phone" name="phone" placeholder="780-000-0000" />
+          </div>
+          <div class="form-group">
+            <label for="c-subject">What's this about?</label>
+            <select id="c-subject" name="subject">
+              <option value="">Select...</option>
+              <option value="Workshop / Event Question">Workshop / Event Question</option>
+              <option value="Birthday Party Inquiry">Birthday Party Inquiry</option>
+              <option value="Add Me to the Mailing List">Add Me to the Mailing List</option>
+              <option value="Something Else">Something Else</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="c-message">Message *</label>
+            <textarea id="c-message" name="message" rows="5" required placeholder="What's on your mind?"></textarea>
+          </div>
+          <button type="submit" class="btn-primary full-width">Send Message ✉️</button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- MAP PLACEHOLDER -->
+  <section class="section-pad bg-cream">
+    <div class="container center-text">
+      <h2>Find the Studio</h2>
+      <p>Located in the lower level of The Promenade — Nanton's collaborative creative space.</p>
+      <p><strong>2111 20 St, Nanton, AB</strong></p>
+      <div class="map-placeholder">
+        <p>📍 Map embed coming soon — or <a href="https://maps.google.com/?q=2111+20+St+Nanton+Alberta" target="_blank" rel="noopener">open in Google Maps →</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <p class="footer-logo">Create With Meg</p>
+        <p>Art Studio for All Ages<br/>Nanton, Alberta</p>
+      </div>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="workshops.html">Workshops</a>
+        <a href="birthdays.html">Birthday Parties</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-contact">
+        <p>📞 <a href="tel:8254881990">825-488-1990</a></p>
+        <p>📧 <a href="mailto:createwithmeg@gmail.com">createwithmeg@gmail.com</a></p>
+        <p>📍 2111 20 St, Nanton AB<br/>(The Promenade — lower level)</p>
+        <div class="social-links">
+          <a href="#" aria-label="Instagram">Instagram</a> &nbsp;|&nbsp; <a href="#" aria-label="Facebook">Facebook</a>
+        </div>
+      </div>
+    </div>
+    <p class="footer-copy">© 2026 Create With Meg. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => navLinks.classList.toggle('open'));
+  </script>
+
+</body>
+</html>
