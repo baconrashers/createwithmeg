@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 900" fill="none">
+  <!-- Main stem -->
+  <path d="M110 900 C108 750 115 600 105 450 C95 300 112 150 108 0" stroke="#8a9e89" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Large branch left top -->
+  <path d="M109 120 C90 105 60 95 30 100" stroke="#8a9e89" stroke-width="2" stroke-linecap="round"/>
+  <!-- Leaf cluster top left -->
+  <ellipse cx="32" cy="98" rx="18" ry="9" fill="#8a9e89" transform="rotate(-20 32 98)"/>
+  <ellipse cx="52" cy="90" rx="14" ry="7" fill="#8a9e89" transform="rotate(-35 52 90)"/>
+  <ellipse cx="70" cy="96" rx="12" ry="6" fill="#8a9e89" transform="rotate(-15 70 96)"/>
+
+  <!-- Branch right upper -->
+  <path d="M107 200 C125 185 155 178 185 180" stroke="#8a9e89" stroke-width="1.8" stroke-linecap="round"/>
+  <ellipse cx="183" cy="178" rx="16" ry="8" fill="#8a9e89" transform="rotate(15 183 178)"/>
+  <ellipse cx="163" cy="172" rx="12" ry="6" fill="#8a9e89" transform="rotate(25 163 172)"/>
+  <ellipse cx="145" cy="180" rx="10" ry="5" fill="#8a9e89" transform="rotate(10 145 180)"/>
+
+  <!-- Small sprig left -->
+  <path d="M106 290 C88 280 68 275 50 278" stroke="#8a9e89" stroke-width="1.5" stroke-linecap="round"/>
+  <ellipse cx="50" cy="277" rx="13" ry="6" fill="#8a9e89" transform="rotate(-25 50 277)"/>
+  <ellipse cx="68" cy="271" rx="10" ry="5" fill="#8a9e89" transform="rotate(-35 68 271)"/>
+
+  <!-- Branch right mid -->
+  <path d="M105 380 C130 365 160 360 190 362" stroke="#8a9e89" stroke-width="1.8" stroke-linecap="round"/>
+  <ellipse cx="188" cy="360" rx="15" ry="7" fill="#8a9e89" transform="rotate(10 188 360)"/>
+  <ellipse cx="168" cy="354" rx="11" ry="5.5" fill="#8a9e89" transform="rotate(20 168 354)"/>
+  <ellipse cx="150" cy="360" rx="9" ry="4.5" fill="#8a9e89" transform="rotate(8 150 360)"/>
+
+  <!-- Tiny leaf buds on stem -->
+  <ellipse cx="104" cy="460" rx="8" ry="4" fill="#8a9e89" transform="rotate(-40 104 460)"/>
+  <ellipse cx="108" cy="468" rx="8" ry="4" fill="#8a9e89" transform="rotate(40 108 468)"/>
+
+  <!-- Branch left lower -->
+  <path d="M106 530 C82 515 55 510 28 514" stroke="#8a9e89" stroke-width="1.8" stroke-linecap="round"/>
+  <ellipse cx="30" cy="512" rx="16" ry="7.5" fill="#8a9e89" transform="rotate(-18 30 512)"/>
+  <ellipse cx="50" cy="505" rx="12" ry="6" fill="#8a9e89" transform="rotate(-28 50 505)"/>
+  <ellipse cx="70" cy="510" rx="10" ry="5" fill="#8a9e89" transform="rotate(-12 70 510)"/>
+
+  <!-- Branch right lower -->
+  <path d="M107 620 C132 607 162 603 192 605" stroke="#8a9e89" stroke-width="1.6" stroke-linecap="round"/>
+  <ellipse cx="190" cy="603" rx="14" ry="6.5" fill="#8a9e89" transform="rotate(12 190 603)"/>
+  <ellipse cx="170" cy="597" rx="10" ry="5" fill="#8a9e89" transform="rotate(22 170 597)"/>
+
+  <!-- Small buds lower left -->
+  <path d="M107 710 C88 700 72 697 58 700" stroke="#8a9e89" stroke-width="1.4" stroke-linecap="round"/>
+  <ellipse cx="58" cy="699" rx="11" ry="5" fill="#8a9e89" transform="rotate(-22 58 699)"/>
+  <ellipse cx="75" cy="693" rx="9" ry="4" fill="#8a9e89" transform="rotate(-30 75 693)"/>
+
+  <!-- Tiny dots / berries -->
+  <circle cx="45" cy="92" r="3.5" fill="#8a9e89"/>
+  <circle cx="38" cy="86" r="2.5" fill="#8a9e89"/>
+  <circle cx="175" cy="170" r="3" fill="#8a9e89"/>
+  <circle cx="182" cy="165" r="2" fill="#8a9e89"/>
+  <circle cx="60" cy="269" r="2.5" fill="#8a9e89"/>
+  <circle cx="178" cy="352" r="3" fill="#8a9e89"/>
+  <circle cx="42" cy="505" r="2.5" fill="#8a9e89"/>
+  <circle cx="180" cy="595" r="2.5" fill="#8a9e89"/>
+</svg>
