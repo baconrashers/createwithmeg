@@ -31,6 +31,33 @@ body {
   color: var(--near-black);
   line-height: 1.7;
   font-size: 16px;
+  position: relative;
+}
+
+/* Botanical background — fixed left & right edges, behind everything */
+.botanical-bg {
+  position: fixed;
+  top: 0; bottom: 0;
+  width: 180px;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.12;
+}
+.botanical-bg-left { left: 0; }
+.botanical-bg-right { right: 0; transform: scaleX(-1); }
+.botanical-bg img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
+
+/* Make sure all content sits above the botanical bg */
+.navbar, section, footer { position: relative; z-index: 1; }
+
+@media (max-width: 1200px) {
+  .botanical-bg { width: 120px; opacity: 0.09; }
+}
+@media (max-width: 900px) {
+  .botanical-bg { width: 80px; opacity: 0.07; }
+}
+@media (max-width: 600px) {
+  .botanical-bg { display: none; }
 }
 
 /* ---- TYPOGRAPHY ---- */
@@ -142,35 +169,11 @@ ul { list-style: none; padding: 0; }
   .navbar { position: relative; }
 }
 
-/* ---- BOTANICAL DECORATIONS ---- */
-.botanical-left,
-.botanical-right {
-  position: absolute;
-  top: 0; bottom: 0;
-  width: 220px;
-  pointer-events: none;
-  opacity: 0.18;
-}
-.botanical-left { left: 0; }
-.botanical-right { right: 0; transform: scaleX(-1); }
-.botanical-left svg,
-.botanical-right svg { width: 100%; height: 100%; }
-
-@media (max-width: 900px) {
-  .botanical-left, .botanical-right { width: 120px; opacity: 0.12; }
-}
-@media (max-width: 600px) {
-  .botanical-left { display: none; }
-  .botanical-right { width: 90px; opacity: 0.1; }
-}
-
 /* ---- HERO ---- */
 .hero {
   background: var(--cream);
   padding: 7rem 1.5rem 6rem;
   text-align: center;
-  position: relative;
-  overflow: hidden;
 }
 .hero-content { max-width: 720px; margin: 0 auto; }
 .hero-eyebrow {
